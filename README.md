@@ -21,8 +21,11 @@ Fastify: Framework Node.js voltado para alto desempenho e baixo consumo de recur
 🚀 Começando
 Pré-requisitos
 Node.js (versão 14 ou superior)
+
 npm ou yarn
 
+Instalação
+bash
 # Clone o repositório
 git clone https://github.com/seu-usuario/f1-minimal-api.git
 
@@ -34,3 +37,43 @@ npm install
 
 # Inicie o servidor de desenvolvimento
 npm run dev
+📚 Endpoints da API
+Pilotos
+GET /drivers - Lista todos os pilotos
+
+GET /drivers/:id - Obtém um piloto específico
+
+POST /drivers - Cria um novo piloto
+
+PUT /drivers/:id - Atualiza um piloto
+
+DELETE /drivers/:id - Remove um piloto
+
+Equipes
+GET /teams - Lista todas as equipes
+
+GET /teams/:id - Obtém uma equipe específica
+
+POST /teams - Cria uma nova equipe
+
+PUT /teams/:id - Atualiza uma equipe
+
+DELETE /teams/:id - Remove uma equipe
+
+Resultados
+GET /results - Lista todos os resultados
+
+GET /results/:id - Obtém um resultado específico
+
+POST /results - Cria um novo resultado
+
+PUT /results/:id - Atualiza um resultado
+
+DELETE /results/:id - Remove um resultado
+
+🏃‍♂️ Scripts Disponíveis
+bash
+npm run dev      # Inicia o servidor de desenvolvimento
+npm run build    # Compila o projeto
+npm run start    # Inicia o servidor em produção
+npm run test     # Executa os testes
