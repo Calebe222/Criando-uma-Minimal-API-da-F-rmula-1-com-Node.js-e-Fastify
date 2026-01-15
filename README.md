@@ -1,24 +1,41 @@
-🏎️ Minimal API da Fórmula 1
-Uma API leve e eficiente desenvolvida com Node.js e Fastify, focada em fornecer informações sobre a Fórmula 1. Ideal para aplicações web e móveis que necessitam de respostas rápidas e um ambiente minimalista.
+# 🏎️ Minimal API da Fórmula 1
 
-📋 Descrição
-Esta API oferece uma estrutura simplificada para operações CRUD básicas relacionadas à Fórmula 1, como equipes, pilotos e resultados. Seu objetivo é fornecer respostas rápidas e manter a estrutura enxuta, facilitando a integração com diferentes tipos de aplicações.
+Uma API leve e eficiente desenvolvida com **Node.js** e **Fastify**, focada em fornecer informações precisas sobre o ecossistema da Fórmula 1. Este projeto foi idealizado para aplicações web e móveis que exigem alta performance, respostas rápidas e um ambiente minimalista.
 
-⚡ Funcionalidades
-CRUD Completo: Permite criar, ler, atualizar e excluir dados sobre a Fórmula 1
+## 📋 Descrição
 
-Minimalista: Estrutura simples, fácil de entender e expandir
+Esta API oferece uma estrutura simplificada para operações **CRUD** básicas relacionadas à Fórmula 1, abrangendo dados sobre equipes, pilotos e resultados. O foco principal é manter uma arquitetura extensível e de baixa latência, facilitando a integração com diversos tipos de clientes e serviços.
 
-Rápida e Eficiente: Respostas ágeis para aplicações web e móveis
+---
 
-Flexível: Preparada para integração com diferentes tipos de front-end e serviços externos
+## ⚡ Funcionalidades
 
-🛠️ Tecnologias Utilizadas
-Node.js: Ambiente de execução JavaScript do lado do servidor
+* **CRUD Completo:** Gerenciamento total (Criar, Ler, Atualizar e Excluir) de dados sobre a F1.
+* **Design Minimalista:** Estrutura de código limpa, fácil de entender e expandir.
+* **Alta Performance:** Graças ao Fastify, a API entrega respostas ágeis com baixo consumo de recursos.
+* **Flexibilidade:** Pronta para integração com diferentes frameworks de front-end e serviços externos.
 
-Fastify: Framework Node.js voltado para alto desempenho e baixo consumo de recursos
+---
 
-🚀 Começando
-Pré-requisitos
-Node.js (versão 14 ou superior)
-npm ou yarn
+## 🛠️ Tecnologias Utilizadas
+
+* **[Node.js](https://nodejs.org/):** Ambiente de execução JavaScript assíncrono orientado a eventos.
+* **[Fastify](https://www.fastify.io/):** Framework web focado na melhor experiência do desenvolvedor e no menor overhead possível.
+
+---
+
+## 🚀 Começando
+
+Siga as instruções abaixo para configurar o projeto localmente.
+
+### Pré-requisitos
+
+Antes de começar, você precisará ter instalado em sua máquina:
+* **Node.js** (versão 14 ou superior)
+* **npm** ou **yarn**
+
+### Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/seu-usuario/f1-minimal-api.git](https://github.com/seu-usuario/f1-minimal-api.git)
